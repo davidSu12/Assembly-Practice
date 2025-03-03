@@ -82,7 +82,7 @@ finSuccess:
 
 finFailure:
 	mov edx, OFFSET promptFailure
-	;call WriteString
+	call WriteString
 
 
 fin:
