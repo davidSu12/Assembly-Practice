@@ -9,7 +9,7 @@ INCLUDELIB Kernel32.lib
 	
 	array DWORD 1,2,3,4,5
 	promptFailure BYTE "El numero no se ha podido encontrar",0
-	promptSuccess BYTE "El numero buscado es:",0
+	promptSuccess BYTE "El numero se encuentra en la posicion:",0
 
 .code
 
