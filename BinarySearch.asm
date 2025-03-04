@@ -54,10 +54,10 @@ BinarySearch PROC
 	mov edi, -1
 	
 	retorno:
-	pop eax
-	pop ebx
-	pop ecx
 	pop edx
+	pop ecx
+	pop ebx
+	pop eax
 	ret
 BinarySearch ENDP
 
