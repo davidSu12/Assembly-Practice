@@ -1,2 +1,2 @@
 # Assembly-Practice
-- Just code in Assembly
+- Just code in Assembly in MASM sintax
