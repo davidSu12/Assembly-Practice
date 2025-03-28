@@ -16,10 +16,10 @@ fusion PROC
 	push ebp
 	mov ebp, esp
 
-	mov esi, [ebp-8]
-	mov eax, [ebp-12] ;centro = j
-	mov ebx, [ebp-16] ;izquierda = i
-	mov ecx, [ebp-20] ;derecha
+	mov esi, [ebp + 8]
+	mov eax, [ebp + 12] ;centro = j
+	mov ebx, [ebp + 16] ;izquierda = i
+	mov ecx, [ebp + 20] ;derecha
 	mov edx, ebx      ;izquierda = K
 	inc eax           ;centro += 1
 
